@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-sans: "Ibarra Real Nova", serif;
+  /* optional: also map serif utilities */
+  --font-serif: "Ibarra Real Nova", serif;
+}
+
+@utility font-public {
+  font-family: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --default-font-family: "Ibarra Real Nova", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
