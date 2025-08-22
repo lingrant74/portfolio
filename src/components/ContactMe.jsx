@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom"
 export function ContactMe() {
 
     return (
-        <main className=' px-41 h-screen -mb-20 z-10 relative mt-23.5'>
+        <main className=' px-41 h-screen z-10 relative mt-23.5 min-w-250'>
             <hr className=' border-1 text-gray-200' />
             <div className='w-full h-88.5 flex'>
                 <div className='w-5/12 font-bold text-3xl pt-12'>

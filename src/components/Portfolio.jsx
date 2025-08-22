@@ -8,10 +8,10 @@ import you from '../images/you.png'
 
 export function Portfolio() {
     return (
-        <main className='flex justify-center mt-14 px-41 flex-col mb-40 gap-y-30'>
+        <main className='flex justify-center mt-14 px-41 flex-col mb-40 gap-y-30 min-w-300'>
             <div className='h-125 flex'>
-                <div className='w-1/2 bg-red-100 overflow-hidden'>
-                    <img src={budget} alt='image of budget app'  />
+                <div className='w-1/2 overflow-hidden flex items-center'>
+                    <img src={budget} alt='image of budget app' className='object-cover' />
                 </div>
                 <div className='w-1/2 flex flex-col pl-20'>
                     <hr className=' border-1 text-gray-200' />
@@ -49,13 +49,13 @@ export function Portfolio() {
                     </NavLink>
                     <hr className=' border-1 text-gray-200 mt-12' />
                 </div>
-                <div className='w-1/2 bg-red-100'>
-                    <img src={hangman} alt='Picture of Hangman game'/>
+                <div className='w-1/2 overflow-hidden flex items-center justify-center'>
+                    <img src={hangman} alt='Picture of Hangman game' className='object-cover'/>
                 </div>
             </div>
 
             <div className='h-125 flex'>
-                <div className='w-1/2 bg-red-100'>
+                <div className='w-1/2 overflow-hidden flex items-center justify-center'>
                     <img src={home} alt="rock paper scissor picture" className="h-full w-full object-cover object-center"/>
                 </div>
                 <div className='w-1/2 flex flex-col pl-20'>
@@ -76,7 +76,7 @@ export function Portfolio() {
                 </div>
             </div>
 
-            <div className='h-125 flex'>
+            <div className='h-125 flex items-center'>
                 <div className='w-1/2 flex flex-col pr-20'>
                     <hr className=' border-1 text-gray-200' />
                     <h1 className='font-bold text-[2.5rem] mt-12.5'>
@@ -93,14 +93,14 @@ export function Portfolio() {
                     </NavLink>
                     <hr className=' border-1 text-gray-200 mt-12' />
                 </div>
-                <div className='w-1/2 bg-red-100'>
-                    <img src={you} alt='youtube page showcase'/>
+                <div className='w-1/2 h-full bg-red-100 overflow-hidden flex items-center justify-center'>
+                    <img src={you} alt='youtube home page' className='object-cover'/>
                 </div>
             </div>
 
             <div className='h-125 flex'>
-                <div className='w-1/2 bg-red-100'>
-                    <img src={tenHome} alt='tenzies image'/>
+                <div className='w-1/2 overflow-hidden flex items-center justify-center'>
+                    <img src={tenHome} alt='tenzies image' className='object-cover'/>
                 </div>
                 <div className='w-1/2 flex flex-col pl-20'>
                     <hr className=' border-1 text-gray-200' />

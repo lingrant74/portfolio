@@ -9,18 +9,18 @@ import rock2 from '../images/rock2.png'
 
 export function Rock() {
     return (
-        <main className='flex justify-center mt-14 px-41 flex-col mb-40'>
+        <main className='flex justify-center mt-14 px-41 flex-col mb-40 min-w-300'>
             <div className='w-full h-125 bg-green-100 overflow-hidden'>
                 <img src={home} alt='Rock paper scissor preview' />
             </div>
 
-            <div className='mt-29 w-full flex h-300'>
+            <div className='mt-29 w-full flex'>
                 <div className='w-5/12 pr-20'>
                     <hr className=' border-1 text-gray-200' />
                     <h1 className='font-bold text-[2.5rem] mt-12.5'>
                         Rock/Paper/Scissor
                     </h1>
-                    <div className='h-90 text-[#33323D] font-public leading-[30px] pt-8'>
+                    <div className='text-[#33323D] font-public leading-[30px] pt-8'>
                         The game is a <strong>visually dynamic game</strong> built with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, featuring two modes: the classic Rock, Paper, Scissors and the extended Rock, Paper, Scissors, Spock, Lizard version. The gameplay is powered by <strong>JavaScript state management</strong>, while the smooth transitions with <strong>CSS animations</strong> bring each round to life — from <strong>button interactions</strong> to the reveal of results.
                         <div className='font-bold text-[1rem] text-[#5FB4A2] mt-5'>
                             Interactive Design / Front End Development

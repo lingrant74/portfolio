@@ -7,18 +7,18 @@ import ten2 from '../images/ten2.png'
 
 export function Tenzies() {
     return (
-        <main className='flex justify-center mt-14 px-41 flex-col mb-40'>
+        <main className='flex justify-center mt-14 px-41 flex-col mb-40 min-w-300'>
             <div className='w-full h-125 bg-green-100 overflow-hidden'>
                 <img src={ten1} alt='Picture of Tenzies'/>
             </div>
 
-            <div className='mt-29 w-full flex h-230'>
+            <div className='mt-29 w-full flex'>
                 <div className='w-5/12 mr-20'>
                     <hr className=' border-1 text-gray-200' />
                     <h1 className='font-bold text-[2.5rem] mt-12.5'>
                         Tenzies
                     </h1>
-                    <div className='h-90 text-[#33323D] text-[1rem] font-public leading-[30px] w-7/8 mt-5'>
+                    <div className='text-[#33323D] text-[1rem] font-public leading-[30px] w-7/8 mt-5'>
                         This game is designed as a fun, interactive group activity built with <strong>React</strong>. It uses <strong>state hooks</strong> to manage dice rolls, locked dice, and winning conditions. With <strong>reusable components</strong> and <strong>conditional rendering</strong>, the layout stays clean and dynamic. Its <strong>fast-paced gameplay</strong> and simple mechanics make it perfect for friendly competition among friends or family.
                         <div className='font-bold text-[1rem] text-[#5FB4A2] mt-5'>
                             Interactive Design / Front-End Development
@@ -27,12 +27,14 @@ export function Tenzies() {
                             React/CSS
                         </div>
                     </div>
-                    <a href="https://spectacular-frangollo-b51f90.netlify.app">
-                        <button className='mt-10 font-public border-1 border-gray-800 w-50.5 h-12 text-gray-800 cursor-pointer hover:bg-gray-900 hover:text-white
-                            transition-colors duration-200'>
-                            VISIT WEBSITE
-                        </button>
-                    </a>
+                    <div>
+                        <a href="https://spectacular-frangollo-b51f90.netlify.app">
+                            <button className='mt-10 font-public border-1 border-gray-800 w-50.5 h-12 text-gray-800 cursor-pointer hover:bg-gray-900 hover:text-white
+                                transition-colors duration-200'>
+                                VISIT WEBSITE
+                            </button>
+                        </a>
+                    </div>
                     <hr className=' border-1 text-gray-200 mt-12' />
                 </div>
                 <div className='w-7/12 '>
@@ -45,7 +47,7 @@ export function Tenzies() {
                     <h1 className='text-[2rem] mb-7'>
                         Static Previews
                     </h1>
-                    <div className='w-full overflow-hidden'>
+                    <div className='w-full overflow-hidden h-130'>
                         <img src={ten2} alt='Static preview of Tenzies'/>
                     </div>
                 </div>

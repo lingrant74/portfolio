@@ -5,7 +5,7 @@ import logo from '../images/logo.svg'
 
 export function Header() {
     return (
-        <header className='px-41 flex justify-between mt-16 h-8 '>
+        <header className='px-41 flex justify-between mt-16 h-8 min-w-200'>
             <NavLink 
                 to='/'
                 end

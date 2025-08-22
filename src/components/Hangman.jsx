@@ -9,18 +9,18 @@ import hang2 from '../images/hang2.png'
 
 export function Hangman() {
     return (
-        <main className='flex justify-center mt-14 px-41 flex-col mb-40 '>
+        <main className='flex justify-center mt-14 px-41 flex-col mb-40 min-w-300'>
             <div className='w-full h-125 bg-green-100 overflow-hidden'>
                 <img src={hang1} alt='image of the hangman game' />
             </div>
 
-            <div className='mt-29 w-full flex h-300'>
+            <div className='mt-29 w-full flex'>
                 <div className='w-5/12 pr-20'>
                     <hr className=' border-1 text-gray-200' />
                     <h1 className='font-bold text-[2.5rem] mt-12.5'>
                         Hangman
                     </h1>
-                    <div className='h-90 text-[#33323D] font-public pt-8 leading-[30px]'>
+                    <div className='text-[#33323D] font-public pt-8 leading-[30px]'>
                         This app is a <strong>interactive platform</strong> built using <strong>React</strong>, leveraging <strong>React state</strong> and <strong>hooks</strong> to deliver a <strong>smooth, responsive user experience</strong>. It efficiently manages <strong>data flow</strong> and <strong>user interactions</strong> through <strong>stateful components</strong>, ensuring <strong>real-time updates</strong> across the interface without unnecessary re-renders. The architecture is <strong>modular</strong> and <strong>component-driven</strong>, enabling <strong>clean code organization</strong>.
                         <div className='font-bold text-[1rem] text-[#5FB4A2] mt-5'>
                             Interactive Design / Front End Development
@@ -30,7 +30,7 @@ export function Hangman() {
                         </div>
                     </div>
                     <a href="https://heartfelt-rugelach-8306f3.netlify.app">
-                        <button className=' mt-19 font-public border-1 border-gray-800 w-50.5 h-12 text-gray-800 cursor-pointer hover:bg-gray-900 hover:text-white
+                        <button className=' mt-10 font-public border-1 border-gray-800 w-50.5 h-12 text-gray-800 cursor-pointer hover:bg-gray-900 hover:text-white
                             transition-colors duration-200'>
                             VISIT WEBSITE
                         </button>

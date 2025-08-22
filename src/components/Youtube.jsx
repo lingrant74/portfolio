@@ -9,22 +9,22 @@ import youHome from '../images/youHome.png'
 
 export function Youtube() {
     return (
-        <main className='flex justify-center mt-14 px-41 flex-col mb-40'>
+        <main className='flex justify-center mt-14 px-41 flex-col mb-40 min-w-300'>
             <div className='w-full h-125 bg-green-100 overflow-hidden'>
                 <img src={youHome} alt='Youtube-Mock Home page'/>
             </div>
 
-            <div className='mt-29 w-full flex h-300'>
+            <div className='mt-29 w-full flex'>
                 <div className='w-5/12 pr-20'>
                     <hr className=' border-1 text-gray-200' />
                     <h1 className='font-bold text-[2.5rem] mt-12.5'>
                         YouTube-Mock
                     </h1>
-                    <div className='h-90 text-[#33323D] font-public pt-8 leading-[30px]'>
+                    <div className='text-[#33323D] font-public pt-8 leading-[30px]'>
                         The project explores <strong>UI layout design</strong> while taking full advantage of <strong>React's reusable components</strong> to build a clean, scalable interface. By breaking the layout into <strong>modular, reusable elements</strong>, the project ensures consistency across the app. The use of <strong>component-based architecture</strong> allows for easy styling, responsive behavior, and efficient rendering, making the UI both visually appealing and highly functional.
                     </div>
                     <a href="https://celebrated-truffle-2cfab9.netlify.app">
-                        <button className='font-public border-1 border-gray-800 w-50.5 h-12 text-gray-800 cursor-pointer hover:bg-gray-900 hover:text-white
+                        <button className='mt-10 font-public border-1 border-gray-800 w-50.5 h-12 text-gray-800 cursor-pointer hover:bg-gray-900 hover:text-white
                             transition-colors duration-200'>
                             VISIT WEBSITE
                         </button>

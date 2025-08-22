@@ -1,13 +1,16 @@
 import React from 'react'
-import { NavLink } from "react-router-dom"
+import { NavLink, useLocation } from "react-router-dom"
 import logo from '../images/logo.svg'
 import linked from '../images/linkedin.svg'
 
 
 
 export function Footer() {
+    const { pathname } = useLocation();
+    const hideLine = pathname === "/portfolio/contactMe"
     return (
-        <footer className='flex flex-col absolute bottom-0'>
+        <footer className='flex flex-col '>
+            {hideLine &&
             <div className='w-full h-21 mb-37.5 flex items-center justify-between px-41'>
                 <div className='text-[2.5rem] font-bold w-87.5'>
                     Interesed in doing a project together?
@@ -21,7 +24,7 @@ export function Footer() {
                         CONTACT ME
                     </button>
                 </NavLink>
-            </div>
+            </div>}
             <div className='justify-between bg-[#33323D] items-center h-20 text-white px-15 flex'>
                 <div className='flex gap-10'>
                     <NavLink

@@ -13,6 +13,8 @@ import {Tenzies} from './components/Tenzies.jsx'
 
 import ScrollToTop from "./components/scrollToTop.jsx";
 
+import NotFound from './components/404page.jsx'
+
 function App() {
 
   return (
@@ -22,6 +24,7 @@ function App() {
         <Routes>
           <Route path = '/' element = {<Dashboard/>}>
             <Route index element={<Home/>}/>
+            <Route path="*" element={<NotFound/>} />
             <Route path = 'contactMe' element = {<ContactMe/>}/>
             <Route path = 'portfolio' element = {<Portfolio/>}/>
 
