@@ -7,7 +7,7 @@ import linked from '../images/linkedin.svg'
 
 export function Footer() {
     return (
-        <footer className='flex flex-col'>
+        <footer className='flex flex-col absolute bottom-0'>
             <div className='w-full h-21 mb-37.5 flex items-center justify-between px-41'>
                 <div className='text-[2.5rem] font-bold w-87.5'>
                     Interesed in doing a project together?
